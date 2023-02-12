@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <h4>{{ pelis.genero }}</h4>
+  </div>
+  <div>
+    <ul class="pelis-fila">
+      <li *ngFor="let peli of pelis.peli">
+        <img [src]="peli.src"/>
+        <p >{{ peli.titulo }}</p>
+      </li>
+    </ul>
+  </div>
+</div>

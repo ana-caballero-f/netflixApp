@@ -1,0 +1,14 @@
+
+<div>
+  <div>
+    <h4>{{ pelis.genero }}</h4>
+  </div>
+  <div>
+    <ul class="pelis-fila">
+      <li *ngFor="let peli of pelis.peli, let index = index">
+        <p class="numbers">{{index + 1}}</p>
+        <img [src]="peli.src" [title]="peli.titulo" />
+      </li>
+    </ul>
+  </div>
+</div>
