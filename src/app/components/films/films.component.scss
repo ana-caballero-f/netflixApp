@@ -12,25 +12,22 @@ ul {
     flex-wrap: wrap;
     align-items: left;  
     margin: 0 50px;  
-    gap: 7px;
+    gap: 10px;
 }
 
  img {
-    width: 150px;
-    height: 120px; 
+    width: 235px;
+    height: 150px; 
 
     &:hover {
         cursor: pointer;
         transform: scale(1.2);
     }
  } 
-
 img:hover + p {
         display: block; 
          
-    }
-    
-
+    }    
 p {
       display: none;
       background-color: white;
